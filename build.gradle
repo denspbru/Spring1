@@ -1,0 +1,27 @@
+group 'org.densprbu'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.5
+
+
+mainClassName = 'org.denspbru.Main'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile(
+            [group: 'com.github.stefanbirkner', name: 'system-rules', version: '1.16.0'],
+            [group: 'org.springframework', name: 'spring-context', version: '4.3.2.RELEASE'],
+            [group: 'org.springframework', name: 'spring-core', version: '4.3.2.RELEASE']
+    )
+    runtime(
+            [group: 'com.github.stefanbirkner', name: 'system-rules', version: '1.16.0'],
+            [group: 'org.springframework', name: 'spring-context', version: '4.3.2.RELEASE'],
+            [group: 'org.springframework', name: 'spring-core', version: '4.3.2.RELEASE']
+    )
+}

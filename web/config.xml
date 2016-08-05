@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="consolePrinter" class="org.denspbru.impl.ConsolePrinter">
+        <property name="message" ref="messageService"></property>
+    </bean>
+    <!-- внедрением зависимостей через конструктор -->
+    <bean id="consolePrinterConstructor" class="org.denspbru.impl.ConsolePrinter">
+        <constructor-arg ref="messageService"/>
+    </bean>
+    <!-- внедрением зависимостей с использованием фабричного метода -->
+    <bean id="consolePrinterFactoryMethod" class="org.denspbru.impl.ConsolePrinter" factory-method="MakePrinter">
+        <constructor-arg ref="messageService"/>
+    </bean>
+    <bean name="messageService" class="org.denspbru.impl.MessageService">
+        <property name="message" value="Hello"></property>
+    </bean>
+
+</beans>
