@@ -50,6 +50,8 @@ sequenceDiagram
 ```
 <div style="break-before: page;"></div>
 
+<div style="page-break-after: always;"></div>
+
 # 2. Регистрация события
 
 ```mermaid
@@ -72,6 +74,9 @@ sequenceDiagram
 ```
 <div style="break-before: page;"></div>
 
+
+<div style="page-break-after: always;"></div>
+
 # 3. Настройка типа события
 
 ```mermaid
@@ -93,6 +98,8 @@ flowchart TD
     F1 --> G[Сохранение в EventType]
 ```
 <div style="break-before: page;"></div>
+
+<div style="page-break-after: always;"></div>
 
 ## 4. Обработка ошибок
 
