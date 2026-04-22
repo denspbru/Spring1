@@ -49,7 +49,8 @@ sequenceDiagram
     end
 ```
 <div style="break-before: page;"></div>
-# 2. Регистрация события
+
+## 2. Регистрация события
 
 ```mermaid
 sequenceDiagram
@@ -70,7 +71,8 @@ sequenceDiagram
     end
 ```
 <div style="break-before: page;"></div>
-# 3. Настройка типа события
+
+## 3. Настройка типа события
 
 ```mermaid
 flowchart TD
@@ -91,7 +93,8 @@ flowchart TD
     F1 --> G[Сохранение в EventType]
 ```
 <div style="break-before: page;"></div>
-# 4. Обработка ошибок
+
+## 4. Обработка ошибок
 
 ```mermaid
 flowchart TD
@@ -110,7 +113,8 @@ flowchart TD
     G -->|Нет| I[Перевод в статус 'failed'<br/>требует анализ]
 ```
 <div style="break-before: page;"></div>
-# 5. Контекст и шаблоны - пример
+
+## 5. Контекст и шаблоны - пример
 
 ```mermaid
 flowchart LR
