@@ -75,6 +75,10 @@ sequenceDiagram
 <div style="break-before: page;"></div>
 
 
+
+
+
+
 <div style="page-break-after: always;"></div>
 
 # 3. Настройка типа события
