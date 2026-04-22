@@ -49,6 +49,8 @@ sequenceDiagram
 
 ---
 
+***
+
 # 2. Регистрация события
 
 ```mermaid
