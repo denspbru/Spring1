@@ -1,5 +1,14 @@
 # Бизнес-процессы модуля рассылок
 
+<div style="break-before: page;"></div>
+
+
+
+
+
+
+<div style="page-break-after: always;"></div>
+
 # 1. Основной процесс рассылки
 
 ```mermaid
