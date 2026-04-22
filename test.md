@@ -9,6 +9,8 @@
 
 <div style="page-break-after: always;"></div>
 
+\newpage
+
 # 1. Основной процесс рассылки
 
 ```mermaid
