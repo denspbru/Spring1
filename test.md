@@ -1,15 +1,6 @@
 # Бизнес-процессы модуля рассылок
 
-<div style="break-before: page;"></div>
 
-
-
-
-
-
-<div style="page-break-after: always;"></div>
-
-\newpage
 
 ---
 
@@ -61,9 +52,8 @@ sequenceDiagram
         end
     end
 ```
-<div style="break-before: page;"></div>
 
-<div style="page-break-after: always;"></div>
+---
 
 # 2. Регистрация события
 
@@ -85,14 +75,8 @@ sequenceDiagram
         BizSystem-->>User: Продолжить обработку
     end
 ```
-<div style="break-before: page;"></div>
 
-
-
-
-
-
-<div style="page-break-after: always;"></div>
+---
 
 # 3. Настройка типа события
 
@@ -114,9 +98,8 @@ flowchart TD
     
     F1 --> G[Сохранение в EventType]
 ```
-<div style="break-before: page;"></div>
 
-<div style="page-break-after: always;"></div>
+---
 
 ## 4. Обработка ошибок
 
@@ -136,7 +119,8 @@ flowchart TD
     G -->|Да| H[Планирование повтора]
     G -->|Нет| I[Перевод в статус 'failed'<br/>требует анализ]
 ```
-<div style="break-before: page;"></div>
+
+---
 
 ## 5. Контекст и шаблоны - пример
 
