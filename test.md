@@ -50,7 +50,7 @@ sequenceDiagram
 ```
 <div style="break-before: page;"></div>
 
-## 2. Регистрация события
+# 2. Регистрация события
 
 ```mermaid
 sequenceDiagram
@@ -72,7 +72,7 @@ sequenceDiagram
 ```
 <div style="break-before: page;"></div>
 
-## 3. Настройка типа события
+# 3. Настройка типа события
 
 ```mermaid
 flowchart TD
